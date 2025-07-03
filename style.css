@@ -131,7 +131,7 @@ h1 {
 .box p {
 font-size: 1rem;
   margin-bottom: 20px;
-  text-align: left; /* troque de justify para left */
+  text-align: left; 
   line-height: 1.6;
 }
 footer {
@@ -247,7 +247,7 @@ footer {
       color: #000;
     }
 
-    /* Responsivo */
+    
     @media (max-width: 768px) {
       .container {
         flex-direction: column;
@@ -266,7 +266,7 @@ footer {
       }
     }
 
-    /* Botão flutuante WhatsApp */
+    
     .whatsapp-1 {
       position: fixed;
       bottom: 20px;
@@ -305,6 +305,7 @@ footer {
 .texto-adv h2 {
   font-size: 2rem;
   margin-bottom: 20px;
+  
 }
 .texto-adv p {
   margin-bottom: 15px;
@@ -424,7 +425,7 @@ footer {
   background-color: #c48e3a;
 }
 
-/* CAIXAS DE TEXTO */
+
 .contato-direita {
   flex: 1;
   min-width: 280px;
@@ -450,7 +451,7 @@ footer {
   margin-top: 4px;
 }
 
-/* RODAPÉ */
+
 .rodape {
   background-color: #111;
   text-align: center;
@@ -464,9 +465,6 @@ footer {
   text-decoration: none;
 }
 
-/* ============================
-   RESPONSIVIDADE
-============================ */
 @media (max-width: 768px) {
   .contato {
     flex-direction: column;
